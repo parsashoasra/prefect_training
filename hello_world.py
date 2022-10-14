@@ -5,9 +5,7 @@ import pandas as pd
 import pendulum
 from functools import reduce
 from prefect.filesystems import GitHub
-from flows import pipe
 from prefect.deployments import Deployment
-from prefect.filesystems import GitHub
 
 github_block = GitHub.load("prefect-training-git")
 
